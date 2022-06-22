@@ -1,5 +1,5 @@
 {
-  "name": "use-timer-forked",
+  "name": "@andy-todd-dev/use-timer-forked",
   "version": "2.0.2",
   "description": "A timer hook for React",
   "main": "./lib/index.js",
