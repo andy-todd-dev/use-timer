@@ -1,5 +1,5 @@
 {
-  "name": "@andy-todd-dev/use-timer-forked",
+  "name": "@andy-todd-dev/use-timer",
   "version": "2.0.2",
   "description": "A timer hook for React",
   "main": "./lib/index.js",
@@ -10,7 +10,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "demo:dev": "parcel ./demo/index.html --open",
-    "demo:build": "parcel build ./demo/index.html --out-dir demo-dist"
+    "demo:build": "parcel build ./demo/index.html --out-dir demo-dist",
+    "github:publish": "npm login --scope=@andy-todd-dev --registry=https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
